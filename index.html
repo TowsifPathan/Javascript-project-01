@@ -4,68 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guess The Animal</title>
+    <title>Guess The Number</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
+
     <div class="main">
-        <h2>Guess The<br>Number</h2>
-        <div class="pOne">
-            <div class="plyr">
-                <div class="ibg"></div>
-                <i class="fa-regular fa-user user"></i>
-                <h3>Player 01</h3>
-            </div>
-
-            <h1 class="type">type here little kid</h1>
-
-            <div class="cen">
-                <input class="input" type="text" placeholder="Enter Your Guess">
-                <h6 class="caution cOne"><span>*</span>Enter Number Less Then 10</h6>
-                <h6 class="caution cTwo"><span>*</span>Enter Number First</h6>
-                <div class="btn_box">
-                    <button class="btn submit">SUBMIT</button>
+        <div class="pl_one_interface">
+            <h2 class="p1_title">Guess The<br>Number</h2>
+            <div class="playerOne">
+                <div class="p1winner">
+                    <h5 class="is">is</h5>
+                    <h5 class="winner">winner</h5>
                 </div>
-            </div>
-        </div>
-        <div class="pTwo">
-            <div class="afBG">
-                <h5 class="h5">DRAW</h5>
-                <div class="plyr pol">
-                    <div class="ibg afres"></div>
-                    <i class="fa-regular fa-user user afuse"></i>
-                    <h3 class="jafde">Player 01</h3>
-                    <h3 class="fde">Player 02</h3>
-                    <h4>IS WINNER</h4>
+                <div class="Profile">
+                    <div class="icon_bg"></div>
+                    <i class="fa-regular fa-user user"></i>
+                    <h3 class="playerName">Player 01</h3>
                 </div>
 
-            </div>
-            <div class="plyr">
-                <div class="ibg"></div>
-                <i class="fa-regular fa-user user"></i>
-                <h3>Player 02</h3>
-            </div>
+                <h1 class="type">type here little kid</h1>
 
-            <h1 class="type">type here little kid</h1>
-
-            <div class="cen">
-                <input class="inputTwo" type="text" placeholder="Enter Your Guess">
-                <h6 class="caution cOnee"><span>*</span>Enter Number Less Then 10</h6>
-                <h6 class="caution cTwoo"><span>*</span>Enter Number First</h6>
-                <div class="btn_box">
-                    <button onclick="Button()" class="btnTwo">SUBMIT</button>
+                <div class="playzone">
+                    <input onclick="erase()" class="pl_one_input" type="text" placeholder="Enter Your Guess">
+                    <h6 class="caution second_caution"><span>*</span>Enter Number Less Then 10</h6>
+                    <h6 class="caution first_caution"><span>*</span>Enter Number First</h6>
+                    <div class="btn_box">
+                        <button class="btn pl_one_btn">SUBMIT</button>
+                    </div>
                 </div>
             </div>
         </div>
 
+        <div class="pl_two_interface">
+            <h2 class="p2_title">Guess The<br>Number</h2>
+            <div class="playerTwo">
+                <div class="p2winner">
+                    <h5 class="is2">is</h5>
+                    <h5 class="winner2">winner</h5>
+                </div>
+                <div class="Profile">
+                    <div class="icon_bg icon_bg2 "></div>
+                    <i class="fa-regular fa-user user"></i>
+                    <h3 class="playerName pl_two_name">Player 02</h3>
+                </div>
+
+                <h1 class="type p2_type">type here little kid</h1>
+
+                <div class="playzone">
+                    <input onclick="erase2()" class="pl_two_input" type="text" placeholder="Enter Your Guess">
+                    <h6 class="caution p2_second_caution"><span>*</span>Enter Number Less Then 10</h6>
+                    <h6 class="caution p2_first_caution"><span>*</span>Enter Number First</h6>
+                    <div class="btn_box">
+                        <button class="btn pl_two_btn">Final Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+
 
     <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/0fe101ed86.js" crossorigin="anonymous"></script>
