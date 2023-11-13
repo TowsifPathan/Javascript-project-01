@@ -1,3 +1,32 @@
+@media (max-width:1400px) {
+    .p1_title {
+        font-size: 100px;
+    }
+    .playerOne {
+        width: 600px;
+    }
+    .p2_title {
+        font-size: 100px;
+    }
+    .playerTwo {
+        width: 600px;
+    }
+}
+@media (max-width:1350px) {
+    .p1_title {
+        font-size: 100px;
+    }
+    .playerOne {
+        width: 600px;
+    }
+    .p2_title {
+        font-size: 100px;
+    }
+    .playerTwo {
+        width: 600px;
+    }
+}
+
 @media (max-width:1300px) {
     .p1_title {
         font-size: 95px;
@@ -15,7 +44,6 @@
         width: 32.5%;
     }
 }
-
 @media (max-width:1250px) {
     .p1_title {
         font-size: 85px;
