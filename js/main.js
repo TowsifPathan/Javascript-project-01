@@ -52,10 +52,10 @@ plTwoBtn.addEventListener('click' , ()=>{
     else if (plTwoInput.value != plOneInput.value){
         plOneInterFace.style.opacity = "1"
         plTwoInterFace.style.transform = "translateY(100%)"
-        p1winner.style.transform = "translateY(30%)"
+        p1winner.style.transform = "translateY(32%)"
     }
     else if (plTwoInput.value == plOneInput.value){
-        p2winner.style.transform = "translateY(30%)"
+        p2winner.style.transform = "translateY(32%)"
     }
 })
 
