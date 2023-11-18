@@ -1,3 +1,295 @@
 @media (min-width:320px) and (max-width:576px) {
+    .pl_one_interface {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        height: 100vh;
+        background: #7EB1DB;
+        position: relative;
+        transition: .6s;
+        position: relative;
+    }
+    .bgf1 {
+        display: none;
+        position: absolute;
+        top: -70px;
+        right: -135px;
+        transform: rotate(15deg);
+    }
+    .bgf2 {
+        display: none;
+        position: absolute;
+        top: 120px;
+        right: -200px;
+        transform: rotate(1deg);
+    }
+    .bgf3 {
+        display: none;
+        position: absolute;
+        top: 300px;
+        right: -135px;
+        transform: rotate(33deg);
+    }
+    .circle {
+        width: 100%;
+        height: 100%;
+        background: #b4ddff !important;
+        position: absolute;
+        margin-left: 52%;
+        margin-top: 22%;
+        z-index: 0;
+    }
+    .p1_title {
+        font-size: 45px;
+        color: #09404D;
+        order: 1;
+        text-align: center;
+        margin-top: 5%;
+        letter-spacing: 3px;
+    }
+    .playerOne {
+        display: block;
+        background: rgba(76, 144, 178, 0.062);
+        padding: 2%;
+        backdrop-filter: blur(5px);
+        width: 90%;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px 5px rgba(46, 54, 61, 0.4);
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 3%;
+        order: 2;
+    }
+    .icon_bg {
+        display: none;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        background: rgba(76, 144, 178, 0.062);
+        border: 1px solid black;
+        background: #DBEFF4;
+        margin-left: 18%;
+        transform: translateX(0%);
+    }
+    .user {
+        display: none !important;
+        font-size: 41px;
+        color: #09404d;
+        margin-top: 4%;
+        margin-left: -17%;
+        transform: translateX(0%);
+    }
+    .pl_one_name {
+        color: #09404d;
+        margin-left: 50%;
+        margin-top: 3%;
+        transform: translateX(-50%);
+        font-size: 40px;
+    }
+    .type {
+        color: #09404d;
+        margin-top: 4%;
+        text-align: center;
+        margin-left: 0%;
+        letter-spacing: 2px;
+    }
+    .pl_one_input {
+        width: 75%;
+        margin-top: 5%;
+        background: #dbeff4;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        padding: 20px 30px;
+        font-weight: 600;
+        font-size: 22px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.6);
+    }
+    .caution {
+        font-size: 15px;
+        color: rgb(255, 67, 67);
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 7px;
+        text-align: center;
+    }
+    .pl_one_btn {
+        margin-top: 15px;
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.6);
+        background: #dbeff4;
+        font-size: 24px;
+        width: 35%;
+    }
 
+
+    .pl_two_interface {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        height: 100vh;
+        background: #244C76;
+        position: relative;
+        transition: .6s;
+        position: relative;
+    }
+    .bgff1 {
+        display: none;
+        position: absolute;
+        top: -70px;
+        right: -135px;
+        transform: rotate(15deg);
+    }
+    .bgff2 {
+        display: none;
+        position: absolute;
+        top: 120px;
+        right: -200px;
+        transform: rotate(1deg);
+    }
+    .bgff3 {
+        display: none;
+        position: absolute;
+        top: 300px;
+        right: -135px;
+        transform: rotate(33deg);
+    }
+    .c2 {
+        width: 90%;
+        height: 100%;
+        background: #234059!important;
+        position: absolute;
+        margin-left: 65%;
+        border-top-right-radius: 0;
+        margin-top: 22%;
+        border-bottom-right-radius: 0;
+        z-index: 0;
+    }
+    .p2_title {
+        font-size: 45px;
+        color: #DBEFF4 ;
+        order: 1;
+        text-align: center;
+        margin-top: 5%;
+        letter-spacing: 3px;
+    }
+    .playerTwo{
+        display: block;
+        background: rgba(76, 144, 178, 0.062);
+        padding: 2%;
+        backdrop-filter: blur(5px);
+        width: 90%;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px 5px rgba(46, 54, 61, 0.4);
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 3%;
+        order: 2;
+    }
+    .icon_bg2 {
+        display: none;
+    }
+    .pl_two_name {
+        color: #DBEFF4;
+        margin-left: 50%;
+        margin-top: 3%;
+        transform: translateX(-50%);
+        font-size: 38px;
+    }
+    .p2_type {
+        color: #DBEFF4 ;
+        margin-top: 4%;
+        text-align: center;
+        margin-left: 0%;
+        letter-spacing: 2px;
+    }
+    .pl_two_input {
+        width: 75%;
+        margin-top: 5%;
+        background: #dbeff4;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        padding: 20px 30px;
+        font-weight: 600;
+        font-size: 22px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.6);
+    }
+    .pl_two_btn {
+        margin-top: 15px;
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.6);
+        background: #dbeff4;
+        font-size: 20px;
+        width: 55%;
+    }
+    .p2winner {
+        position: absolute;
+        z-index: 1;
+        width: 95%;
+        height: 100%;
+        background: #DBEFF4;
+        transition: .3s;
+        transform: translateY(150%);
+        box-shadow: 0px 0px 10px 0px rgba(46, 54, 61, 0.20);
+    }
+    .is2 {
+        text-transform: uppercase;
+        color: #09404d;
+        font-size: 40px;
+        margin-top: 5px;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    .winner2 {
+        text-transform: uppercase;
+        color: #09404d;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 60px;
+        letter-spacing: 3px;
+    }
+    .p1winner {
+        position: absolute;
+        z-index: 1;
+        width: 95%;
+        height: 100%;
+        background: #DBEFF4;
+        transition: .3s;
+        transform: translateY(150%);
+        box-shadow: 0px 0px 10px 0px rgba(46, 54, 61, 0.20);
+    }
+    .is {
+        text-transform: uppercase;
+        color: #09404d;
+        font-size: 40px;
+        margin-top: 5px;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+    .winner {
+        text-transform: uppercase;
+        color: #09404d;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 60px;
+        letter-spacing: 3px;
+    }
+    .box {
+        display: flex;
+        position: absolute;
+        gap: 0px;
+        top: 97%;
+        left: 5%;
+        width: 89%;
+        height: 30px;
+        z-index: 999;
+        justify-content: space-between;
+    }
+    .box a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #f6f6f6;
+    }
 }
