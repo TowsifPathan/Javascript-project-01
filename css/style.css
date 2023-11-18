@@ -181,13 +181,16 @@
 
 .first_caution {
     display: none;
+
 }
 
 .second_caution {
     display: none;
+
 }
 .third_caution {
     display: none;
+    
 }
 
 .btn_box {
@@ -312,16 +315,16 @@
 
 .p2_second_caution {
     display: none;
-    text-align: center;
+    
 }
 
 .p2_first_caution {
     display: none;
-    text-align: center;
+    
 }
 .p2_third_caution {
     display: none;
-    text-align: center;
+    
 }
 
 .pl_two_btn {
