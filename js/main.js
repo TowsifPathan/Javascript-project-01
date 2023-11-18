@@ -30,6 +30,7 @@ plOneBtn.addEventListener('click' , ()=>{
 function erase() {
     firstCaution.style.display = "none"
     secondCaution.style.display = "none"
+    thirdCaution.style.display = "none"
 }
 
 
@@ -71,6 +72,7 @@ plTwoBtn.addEventListener('click' , ()=>{
 function erase2() {
     p2firstCaution.style.display = "none"
     p2secondCaution.style.display = "none"
+    p2thirdCaution.style.display = "none"
 }
 
 

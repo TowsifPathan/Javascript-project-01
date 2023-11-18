@@ -83,6 +83,33 @@
     margin-left: 5%;
     margin-right: 3%;
 }
+.first_caution {
+    display: none;
+
+}
+
+.second_caution {
+    display: none;
+
+}
+.third_caution {
+    display: none;
+    
+}
+
+.p2_second_caution {
+    display: none;
+    
+}
+
+.p2_first_caution {
+    display: none;
+    
+}
+.p2_third_caution {
+    display: none;
+    
+}
 
 .p1winner {
     position: absolute;
@@ -179,19 +206,7 @@
 }
 
 
-.first_caution {
-    display: none;
 
-}
-
-.second_caution {
-    display: none;
-
-}
-.third_caution {
-    display: none;
-    
-}
 
 .btn_box {
     width: 100%;
@@ -313,19 +328,7 @@
 }
 
 
-.p2_second_caution {
-    display: none;
-    
-}
 
-.p2_first_caution {
-    display: none;
-    
-}
-.p2_third_caution {
-    display: none;
-    
-}
 
 .pl_two_btn {
     margin-top: 10px;
