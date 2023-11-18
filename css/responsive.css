@@ -280,7 +280,7 @@
         display: flex;
         position: absolute;
         gap: 0px;
-        top: 97%;
+        top: 60%;
         left: 5%;
         width: 89%;
         height: 30px;
@@ -289,7 +289,7 @@
     }
     .box a {
         text-decoration: none;
-        font-size: 20px;
+        font-size: 30px;
         color: #f6f6f6;
     }
 }
