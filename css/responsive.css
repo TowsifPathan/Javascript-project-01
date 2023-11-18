@@ -279,7 +279,7 @@
     .box {
         display: flex;
         position: absolute;
-        gap: 0px;
+        gap:0;
         top: 60%;
         left: 5%;
         width: 89%;
