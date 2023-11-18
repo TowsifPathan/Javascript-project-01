@@ -42,7 +42,7 @@
 .bgff2 {
     position: absolute;
     top: 120px;
-    right: -108px;
+    right: -180px;
     transform: rotate(-12deg);
 }
 .bgf3 {
@@ -186,6 +186,9 @@
 .second_caution {
     display: none;
 }
+.third_caution {
+    display: none;
+}
 
 .btn_box {
     width: 100%;
@@ -241,7 +244,6 @@
 
 .profile {
     display: flex;
-    margin-top: 2.5%;
 }
 
 .pl_two_interface {
@@ -314,6 +316,10 @@
 }
 
 .p2_first_caution {
+    display: none;
+    text-align: center;
+}
+.p2_third_caution {
     display: none;
     text-align: center;
 }

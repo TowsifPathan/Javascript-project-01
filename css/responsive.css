@@ -278,13 +278,11 @@
     }
     .box {
         display: flex;
-        position: absolute;
-        gap:0;
-        top: 60%;
-        left: 5%;
+        position: static;
+        gap: 0;
         width: 89%;
         height: 30px;
-        z-index: 999;
+        margin-left: 4%;
         justify-content: space-between;
     }
     .box a {
